@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f1d0;
+    color: #333;
+}
+
+main {
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+h1 {
+    color: #7a4b2a;
+}
+
+.carta{
+    background-color: #fff;
+    border: 2px solid #d4a373;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    padding: 14px 16px;
+}
+
+.carta h4 {
+    margin: 0 0 4px 0;
+    color: #b5651d;
+}
+
+.carta p {
+    margin: 0;
+    color: #123456;
+}
+
+.destaque {
+    border-color: #7B241C;
+    background-color: #dfbf69b2;
+}
+
+.esgotado {
+    opacity: 0.5;
+}
+
+.esgotado h4 {
+    text-decoration: line-through;
+}
+
+#mimo-do-dia {
+    background-color: #5c4440;
+    border: none;
+    text-align: center;
+}
+
+#mimo-do-dia h4 {
+    color: #ffe494;
+}
+
+#mimo-do-dia p {
+    color: #fff;
+}
