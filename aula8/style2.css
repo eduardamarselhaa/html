@@ -1,6 +1,6 @@
 
     header {
-        background-color: #facef3;
+        background-color: #faf2ce;
     }
     header h1{
         color: #cc812c;
@@ -26,7 +26,7 @@ nav a {
     font-family: Arial, sans-serif;
 }
     body {
-        background-color: #f8f1d0;
+        background-color: #c79267;
         margin: 0;
     }
     main {
@@ -37,7 +37,7 @@ nav a {
     main h2 {
         text-align: center;
         font-family: Helvetica, sans-serif; 
-        color: #c47b47;
+        color: #7e3e11;
     }
     section {
         background-color: #fff;
@@ -57,7 +57,7 @@ nav a {
         color: #333;
     }
     footer {
-        background-color: #facef3;
+        background-color: #faf2ce;
         color: #cc812c;
         text-align: center;
         padding: 10px;
