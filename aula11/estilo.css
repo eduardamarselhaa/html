@@ -100,7 +100,17 @@ button {
 }
 
 .btn-limpar:hover {
-  background-color: #cfd6e2;
+  background-color: #e3e7ee;
+}
+
+.btn-voltar {
+  background-color: #e3eaf7;
+  color: #2b2d42;
+}
+
+.btn-voltar:hover {
+  background-color: #e3eaf7;
+  transform: translateY(-2px);
 }
 
 /* Contorno para quem navega pelo teclado */
