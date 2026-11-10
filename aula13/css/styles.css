@@ -33,6 +33,7 @@ body {
 .barra_nav {
   display: flex;
   justify-content: center;
+  gap: 0.90rem;
   background-color: var(--chocolate-dark);
   top: 0;
   z-index: 100;
@@ -61,6 +62,7 @@ body {
 /* Layout flexível */
 .coluna {
   display: flex;
+  gap: 3rem;
   flex-wrap: wrap;
   max-width: 1200px;
   margin: 40px auto;
@@ -101,6 +103,13 @@ body {
 .legenda {
   font-size: 13px;
   font-weight: bold;
+}
+
+.imagem {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
 }
 
 /* Imagens falsas, apenas para marcar o espaço */
@@ -148,17 +157,14 @@ section {
     flex-direction: column;
   }
 
-
   .lateral {
     width: 100%;
   }
-
 
   .lateral .foto {
     max-width: 420px;
     margin: auto;
   }
-
 
   .faixas {
     columns: 2;
@@ -173,23 +179,19 @@ section {
     font-size: 1rem;
   }
 
-
   .barra_nav {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
   }
-
 
   .barra_nav a {
     text-align: center;
     padding: 0.75rem 0.5rem;
   }
 
-
   .faixas {
     columns: 1;
   }
-
 
   .lateral,
   article {
