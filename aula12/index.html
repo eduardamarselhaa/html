@@ -3,21 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Mídia em HTML — Cafeteria Grão Dourado</title>
+  <title>Mídia em HTML — Pizzaria Don Corleone</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <h1> 🍕 Pizzaaria Don Corleone</h1>
+  <h1> 🍕 Pizzaria Don Corleone</h1>
   <p>Vídeo, áudio, YouTube e PDF em uma única página.</p>
 
   <!-- ===== VÍDEO ===== -->
   <h2>Nosso vídeo</h2>
-  <video width="640" height="360" controls poster="imagem/poster.jpg" preload="metadata">
-    <source src="video/cafe.mp4" type="video/mp4">
-    <source src="video/cafe.webm" type="video/webm">
+  <video width="640" height="360" controls poster="imagem/capavideo.png" preload="metadata">
+    <source src="video/pizzariavideio.mp4" type="video/mp4">
+    <source src="video/pizzariavideio.webm" type="video/webm">
     <track src="video/legenda.vtt" kind="subtitles" srclang="pt" label="Português" default>
     Seu navegador não suporta vídeo.
-    <a href="video/cafe.mp4">Baixe o vídeo (MP4)</a>.
+    <a href="video/pizzariavideio.mp4">Baixe o vídeo (MP4)</a>.
   </video>
 
   <!-- ===== ÁUDIO ===== -->
@@ -36,10 +37,10 @@
           
   <!-- ===== PDF ===== -->
   <h2>Nosso cardápio</h2>
-  <object data="docs/cardapio.pdf" type="application/pdf" width="640" height="400">
+  <object data="pizzaria_don_corleone_cardapio_premium.pdf" type="application/pdf" width="640" height="400">
     Seu navegador não mostra PDF aqui.
-    <a href="docs/cardapio.pdf">Abra o cardápio em PDF</a>.
+    <a href="pizzaria_don_corleone_cardapio_premium.pdf">Abra o cardápio em PDF</a>.
   </object>
-
+  <button class="btn-voltar" type="button" onclick="location.href='../index.html'">Voltar</button>
 </body>
 </html>
